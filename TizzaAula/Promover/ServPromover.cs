@@ -2,7 +2,7 @@
 {
     public interface IServPromover
     {
-
+        void Inserir(InserirPromoverDTO inserirDto);
     }
 
     public class ServPromover : IServPromover
